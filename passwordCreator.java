@@ -15,7 +15,7 @@ public class Main {
         String password = kybrd.nextLine();
         int pLength = password.length();
 
-        String obfuscatedWord =  " ";
+       
 
         if (pLength > 8 && pLength < 256){
           if(password != null){
